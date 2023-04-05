@@ -1,0 +1,187 @@
+:root {
+  --main-color: #1e2e36;
+  --button-color: #44c697;
+  --sale-color: #ff1b1b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+
+/* Header */
+.container {
+  width: 100%;
+  max-width: 1818px;
+
+  padding: 0 51px;
+}
+
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+}
+.social__header {
+  display: flex;
+}
+.social__header p {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  color: var(--main-color);
+}
+.social__svg-list {
+  display: flex;
+  column-gap: 30px;
+  margin-left: 5px;
+}
+.social__svg {
+  margin-right: 50px;
+}
+.social__number {
+  display: flex;
+}
+.social__number-svg {
+  margin-right: 10px;
+}
+.social__number a {
+  font-family: "Proxima Nova";
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.nav__list {
+  display: flex;
+}
+.social__box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.social__box-svg {
+  margin-left: 10px;
+}
+.nav__list {
+  column-gap: 15px;
+}
+
+.nav__list a {
+  font-family: "Proxima Nova";
+  column-gap: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #1e2e36;
+}
+.nav__list .nav__list-link {
+  border-bottom: 3px solid var(--button-color);
+}
+.line {
+  border: 1px solid var(--main-color);
+}
+.furniture__box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.furniture__list {
+  display: flex;
+  column-gap: 15px;
+}
+.furniture__item {
+  display: flex;
+}
+.furniture {
+  margin-left: 115px;
+  margin-top: 15px;
+}
+.furniture ul {
+  display: flex;
+  align-items: center;
+}
+.furniture ul li {
+  margin-left: 15px;
+}
+.furniture ul li p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
+  color: var(--main-color);
+}
+.furniture ul li p::first-letter {
+  color: var(--button-color);
+}
+.furniture__basket {
+  margin-left: auto;
+}
+.basket {
+  display: flex;
+  align-items: center;
+}
+.basket p {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin-left: 6px;
+}
+.basket button {
+  width: 278px;
+  height: 51px;
+  background: var(--button-color);
+  border-radius: 3px;
+  border: none;
+  margin-left: 30px;
+}
+.basket button p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.furniture__item p {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin-right: 5px;
+}
+.furniture__item span {
+  display: flex;
+  align-items: center;
+}
+/* Section Slider */
